@@ -11,5 +11,11 @@
 	},
 	"dependencies": {
 		"astro": "^2.0.14"
-	}
+	},
+	"devDependencies": {
+		"@vite-pwa/astro": "^0.0.3"
+	},
+	"peerDependencies": {
+    "workbox-window": "^6.5.4"
+  }
 }
