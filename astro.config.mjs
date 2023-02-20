@@ -19,7 +19,7 @@ FLAG.base += !FLAG.base?.endsWith("/") ? "/" : "";
 
 console.log("* FLAG");
 console.log(FLAG);
-console.log("* import,meta.env");
+console.log("* import.meta.env");
 console.log(import.meta.env);
 
 // https://astro.build/config
