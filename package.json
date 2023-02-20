@@ -14,5 +14,10 @@
 	},
 	"devDependencies": {
 		"@vite-pwa/astro": "^0.0.3"
-	}
+	},
+  "pnpm": {
+    "overrides": {
+      "vite-plugin-pwa": "link:./packages/vite-plugin-pwa"
+    }
+  }
 }
