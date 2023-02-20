@@ -21,7 +21,6 @@ console.log("* import.meta.env");
 console.log(import.meta.env);
 
 // https://astro.build/config
-/*
 export default defineConfig({
   site: FLAG.site,
   base: FLAG.base,
@@ -33,9 +32,4 @@ export default defineConfig({
       __BASE__: JSON.stringify(FLAG.base),
     },
   }
-});
-*/
-export default defineConfig({
-  site: FLAG.site,
-  base: FLAG.base
 });
