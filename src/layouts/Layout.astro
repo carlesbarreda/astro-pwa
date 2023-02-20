@@ -1,17 +1,9 @@
 ---
-import ReloadPrompt from "../components/ReloadPrompt.astro";
-import { pwaInfo } from "virtual:pwa-info";
-
 export interface Props {
 	title: string;
 }
 
 const { title } = Astro.props;
-
-if (pwaInfo)
-	console.log(`* pwaInfo.pwaInDevEnvironment: ${pwaInfo.pwaInDevEnvironment}`);
-else
-	console.log(`* pwaInfo: ${pwaInfo}`);
 
 ---
 
@@ -22,31 +14,9 @@ else
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 		<meta name="title" content={title} />
-		<meta name="description" content="@vite-pwa/astro: PWA integration for Astro." />
-
-		<!-- Vite PWA assets -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" sizes="196x196" href={__BASE__ + "pwa/favicon-196.png"} />
-    <meta name="msapplication-square70x70logo" content={__BASE__ + "pwa/mstile-icon-128.png"} />
-    <meta name="msapplication-square150x150logo" content={__BASE__ + "pwa/mstile-icon-270.png"} />
-    <meta name="msapplication-square310x310logo" content={__BASE__ + "pwa/mstile-icon-558.png"} />
-    <meta name="msapplication-wide310x150logo" content={__BASE__ + "pwa/mstile-icon-558-270.png"} />
-    <link rel="apple-touch-icon" href={__BASE__ + "pwa/apple-icon-180.png"} />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="theme-color" content="#ffffff" />
-    <!-- End: Vite PWA assets -->
-
-		<!-- Vite PWA manifest -->
-		{pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
-		<!-- TODO: pwaInfo is undefined but manifest is generated -->
-		{!pwaInfo && <link rel="manifest" href={__BASE__ + "manifest.webmanifest"} />}
-		<!-- TODO: Document base maybe can be generated in pwaInfo.webManifest.linkTag -->
-		{!pwaInfo && <base href={__BASE__} />}
-		<!-- End: Vite PWA manifest -->
 	</head>
 	<body>
 		<slot />
-		<ReloadPrompt />
 	</body>
 </html>
 <style is:global>
