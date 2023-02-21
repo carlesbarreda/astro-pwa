@@ -3,12 +3,14 @@ lockfileVersion: 5.4
 specifiers:
   '@vite-pwa/astro': ^0.0.3
   astro: ^2.0.14
+  vite: ^4.1.2
 
 dependencies:
   astro: 2.0.14
 
 devDependencies:
-  '@vite-pwa/astro': 0.0.3_astro@2.0.14
+  '@vite-pwa/astro': 0.0.3_astro@2.0.14+vite@4.1.4
+  vite: 4.1.4
 
 packages:
 
@@ -1683,13 +1685,13 @@ packages:
   /@types/yargs-parser/21.0.0:
     resolution: {integrity: sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==}
 
-  /@vite-pwa/astro/0.0.3_astro@2.0.14:
+  /@vite-pwa/astro/0.0.3_astro@2.0.14+vite@4.1.4:
     resolution: {integrity: sha512-erBJ4XQbW+zF58JUe6qG3q11aoE4VKbJrrGAikVIhwlQVpOiHVI69Gy+SX+QVlISDRO9Rn5pS9tVobxjfRYMRg==}
     peerDependencies:
       astro: ^1.6.0 || ^2.0.0
     dependencies:
       astro: 2.0.14
-      vite-plugin-pwa: 0.14.4
+      vite-plugin-pwa: 0.14.4_vite@4.1.4
     transitivePeerDependencies:
       - '@types/babel__core'
       - supports-color
@@ -4331,7 +4333,7 @@ packages:
       unist-util-stringify-position: 3.0.3
       vfile-message: 3.1.4
 
-  /vite-plugin-pwa/0.14.4:
+  /vite-plugin-pwa/0.14.4_vite@4.1.4:
     resolution: {integrity: sha512-M7Ct0so8OlouMkTWgXnl8W1xU95glITSKIe7qswZf1tniAstO2idElGCnsrTJ5NPNSx1XqfTCOUj8j94S6FD7Q==}
     peerDependencies:
       vite: ^3.1.0 || ^4.0.0
@@ -4341,6 +4343,7 @@ packages:
       fast-glob: 3.2.12
       pretty-bytes: 6.1.0
       rollup: 3.17.2
+      vite: 4.1.4
       workbox-build: 6.5.4
       workbox-window: 6.5.4
     transitivePeerDependencies:
