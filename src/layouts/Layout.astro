@@ -1,10 +1,13 @@
 ---
+import { FLAG } from '../config';
+
 export interface Props {
 	title: string;
 }
 
 const { title } = Astro.props;
 
+console.log(`* FLAG.mode: ${FLAG.mode}`);
 ---
 
 <!DOCTYPE html>
