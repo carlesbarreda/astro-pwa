@@ -12,8 +12,8 @@ importers:
       astro: 2.0.14
     devDependencies:
       '@vite-pwa/astro': 0.0.3_rj4euxxovyz2hccb3pmnxkijsa
-      vite: 4.1.3
-      vite-plugin-pwa: github.com/carlesbarreda/vite-plugin-pwa/8e4904c2dfe94d1633e037a133fee7f6d6d56ecc_vite@4.1.3
+      vite: 4.1.4
+      vite-plugin-pwa: github.com/carlesbarreda/vite-plugin-pwa/8e4904c2dfe94d1633e037a133fee7f6d6d56ecc_vite@4.1.4
 
 packages:
 
@@ -1695,7 +1695,7 @@ packages:
       vite-plugin-pwa: ^0.14.0
     dependencies:
       astro: 2.0.14
-      vite-plugin-pwa: github.com/carlesbarreda/vite-plugin-pwa/8e4904c2dfe94d1633e037a133fee7f6d6d56ecc_vite@4.1.3
+      vite-plugin-pwa: github.com/carlesbarreda/vite-plugin-pwa/8e4904c2dfe94d1633e037a133fee7f6d6d56ecc_vite@4.1.4
     dev: true
 
   /@vscode/emmet-helper/2.8.6:
@@ -1814,8 +1814,8 @@ packages:
       typescript: 4.9.5
       unist-util-visit: 4.1.2
       vfile: 5.3.7
-      vite: 4.1.3
-      vitefu: 0.2.4_vite@4.1.3
+      vite: 4.1.4
+      vitefu: 0.2.4_vite@4.1.4
       yargs-parser: 21.1.1
       zod: 3.20.6
     transitivePeerDependencies:
@@ -1932,7 +1932,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001457
-      electron-to-chromium: 1.4.304
+      electron-to-chromium: 1.4.305
       node-releases: 2.0.10
       update-browserslist-db: 1.0.10_browserslist@4.21.5
 
@@ -2157,8 +2157,8 @@ packages:
       jake: 10.8.5
     dev: true
 
-  /electron-to-chromium/1.4.304:
-    resolution: {integrity: sha512-6c8M+ojPgDIXN2NyfGn8oHASXYnayj+gSEnGeLMKb9zjsySeVB/j7KkNAAG9yDcv8gNlhvFg5REa1N/kQU6pgA==}
+  /electron-to-chromium/1.4.305:
+    resolution: {integrity: sha512-WETy6tG0CT5gm1O+xCbyapWNsCcmIvrn4NHViIGYo2AT8FV2qUCXdaB+WqYxSv/vS5mFqhBYnfZAAkVArjBmUg==}
 
   /emmet/2.3.6:
     resolution: {integrity: sha512-pLS4PBPDdxuUAmw7Me7+TcHbykTsBKN/S9XJbUOMFQrNv9MoshzyMFK/R57JBm94/6HSL4vHnDeEmxlC82NQ4A==}
@@ -4333,8 +4333,8 @@ packages:
       unist-util-stringify-position: 3.0.3
       vfile-message: 3.1.4
 
-  /vite/4.1.3:
-    resolution: {integrity: sha512-0Zqo4/Fr/swSOBmbl+HAAhOjrqNwju+yTtoe4hQX9UsARdcuc9njyOdr6xU0DDnV7YP0RT6mgTTOiRtZgxfCxA==}
+  /vite/4.1.4:
+    resolution: {integrity: sha512-3knk/HsbSTKEin43zHu7jTwYWv81f8kgAL99G5NWBcA1LKvtvcVAC4JjBH1arBunO9kQka+1oGbrMKOjk4ZrBg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -4365,7 +4365,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /vitefu/0.2.4_vite@4.1.3:
+  /vitefu/0.2.4_vite@4.1.4:
     resolution: {integrity: sha512-fanAXjSaf9xXtOOeno8wZXIhgia+CZury481LsDaV++lSvcU2R9Ch2bPh3PYFyoHW+w9LqAeYRISVQjUIew14g==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0
@@ -4373,7 +4373,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.1.3
+      vite: 4.1.4
 
   /vscode-css-languageservice/6.2.4:
     resolution: {integrity: sha512-9UG0s3Ss8rbaaPZL1AkGzdjrGY8F+P+Ne9snsrvD9gxltDGhsn8C2dQpqQewHrMW37OvlqJoI8sUU2AWDb+qNw==}
@@ -4669,7 +4669,7 @@ packages:
   /zwitch/2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
 
-  github.com/carlesbarreda/vite-plugin-pwa/8e4904c2dfe94d1633e037a133fee7f6d6d56ecc_vite@4.1.3:
+  github.com/carlesbarreda/vite-plugin-pwa/8e4904c2dfe94d1633e037a133fee7f6d6d56ecc_vite@4.1.4:
     resolution: {tarball: https://codeload.github.com/carlesbarreda/vite-plugin-pwa/tar.gz/8e4904c2dfe94d1633e037a133fee7f6d6d56ecc}
     id: github.com/carlesbarreda/vite-plugin-pwa/8e4904c2dfe94d1633e037a133fee7f6d6d56ecc
     name: vite-plugin-pwa
@@ -4682,7 +4682,7 @@ packages:
       fast-glob: 3.2.12
       pretty-bytes: 6.1.0
       rollup: 3.17.2
-      vite: 4.1.3
+      vite: 4.1.4
       workbox-build: 6.5.4
       workbox-window: 6.5.4
     transitivePeerDependencies:
